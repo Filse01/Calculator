@@ -4446,11 +4446,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/filse/Documents/calcApi/CaclApi/CaclApi.csproj",
+      "projectUniqueName": "/home/filse/Documents/Calculator/calcProject/backend/calcApi/CaclApi/CaclApi.csproj",
       "projectName": "CaclApi",
-      "projectPath": "/home/filse/Documents/calcApi/CaclApi/CaclApi.csproj",
+      "projectPath": "/home/filse/Documents/Calculator/calcProject/backend/calcApi/CaclApi/CaclApi.csproj",
       "packagesPath": "/home/filse/.nuget/packages/",
-      "outputPath": "/home/filse/Documents/calcApi/CaclApi/obj/",
+      "outputPath": "/home/filse/Documents/Calculator/calcProject/backend/calcApi/CaclApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/filse/.nuget/NuGet/NuGet.Config"
@@ -4508,12 +4508,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.6, 8.0.6]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

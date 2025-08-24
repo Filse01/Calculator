@@ -4,48 +4,28 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Document</title>
+    <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <div class="calc">
-        <div>
-            <input type="text" class="text" id="display">
-        </div>
-        <div class="buttons">
-            <button onclick="appendToDisplay('1')">1</button>
-            <button onclick="appendToDisplay('2')">2</button>
-            <button onclick="appendToDisplay('3')">3</button>
-            <button onclick="appendToDisplay('4')">4</button>
-            <button onclick="appendToDisplay('5')">5</button>
-            <button onclick="appendToDisplay('6')">6</button>
-            <button onclick="appendToDisplay('7')">7</button>
-            <button onclick="appendToDisplay('8')">8</button>
-            <button onclick="appendToDisplay('9')">9</button>
-            <button onclick="appendToDisplay('0')">0</button>
-            <button onclick="appendToDisplay('.')">.</button>
-            <button onclick="appendToDisplay(' + ')">+</button>
-            <button onclick="appendToDisplay(' - ')">-</button>
-            <button onclick="appendToDisplay(' * ')">*</button>
-            <button onclick="appendToDisplay(' / ')">/</button>
-            <button onclick="addToHistory(), calculate(), maxHistoryCount()">=</button>
-            <button onclick="clearDisplay()">C</button>
-        </div>
+    <div class="cards">
+        <article class="card">
+            <header>
+                <h2><a href="calc.html">A calculator</a></h2>
+            </header>
+            <img src="/images/calc.jpg" alt="Hot air balloons" />
+            <div class="content">
+                <p>
+                    your simple boring calc
+                </p>
+            </div>
+        </article>
+        
     </div>
-
-    <div class="history" id="history-box">
-        <details>
-            <summary>History</summary>
-                <ul id="list">
-                </ul>
-        </details>
-
-        </ul>
-    </div>
-    <script src="script.js"></script>
+    <script src="" async defer></script>
 </body>
 
 </html>
